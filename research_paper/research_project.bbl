@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{discocat}
+Bob Coecke, Mehrnoosh Sadrzadeh, and Stephen Clark.
+\newblock ``Mathematical foundations for a compositional distributional model
+  of meaning''.
+\newblock CoRR{\bf abs/1003.4394}~(2010).
+\newblock  \href{http://arxiv.org/abs/1003.4394}{arXiv:1003.4394}.
+
+\bibitem{qnlp_near_term}
+Konstantinos Meichanetzidis, Stefano Gogioso, Giovanni De~Felice, Nicolò
+  Chiappori, Alexis Toumi, and Bob Coecke.
+\newblock ``Quantum natural language processing on near-term quantum
+  computers''~(2020).
+\newblock
+  url:~\href{http://arxiv.org/abs/2005.04147}{http://arxiv.org/abs/2005.04147}.
+
+\bibitem{nlp}
+IBM~Cloud Education.
+\newblock ``Natural language processing (nlp)''.
+\newblock
+  url:~\href{https://www.ibm.com/cloud/learn/natural-language-processing}{www.ibm.com/cloud/learn/natural-language-processing}.
+
+\bibitem{qnlp_in_prac}
+Robin Lorenz, Anna Pearson, Konstantinos Meichanetzidis, Dimitri Kartsaklis,
+  and Bob Coecke.
+\newblock ``Qnlp in practice: Running compositional models of meaning on a
+  quantum computer''~(2021).
+\newblock
+  url:~\href{http://arxiv.org/abs/2102.12846}{http://arxiv.org/abs/2102.12846}.
+
+\bibitem{qubits_speak}
+Bob Coecke, Giovanni~de Felice, Konstantinos Meichanetzidis, and Alexis Toumi.
+\newblock ``How to make qubits speak''.
+\newblock Pages 277--297.
+\newblock Springer. ~(2022).
+\newblock
+  url:~\href{http://arxiv.org/abs/2107.06776}{http://arxiv.org/abs/2107.06776}.
+
+\bibitem{lang_indp}
+Muhammad~Hamza Waseem, Jonathon Liu, Vincent Wang-Maścianica, and Bob Coecke.
+\newblock ``Language-independence of discocirc's text circuits: English and
+  urdu''~(2022).
+\newblock  url:~\href{https://cgi.cse.unsw.edu.au/
+  ̃eptcs/paper.cgi?E2ECOMPVEC.7}{cgi.cse.unsw.edu.au/
+  ̃eptcs/paper.cgi?E2ECOMPVEC.7}.
+
+\end{thebibliography}
