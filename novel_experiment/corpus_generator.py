@@ -11,13 +11,9 @@ import random
 from nltk.parse.generate import generate
 from nltk import CFG
 
-NOUNS = ["'alice'", "'bob'", "'man'", "'programmer'", "'linguist'", "'chef'"]
-ADJECTIVES = ["'red'", "'blue'", "'curious'", "'warm'", "'cold'", "'informed'",
-              "'mean'", "'angry'", "'rude'", "'ignorant'", "'annoying'",
-              "'happy'", "'joyful'", "'skilled'", "'kind'", "'helpful'", "'pleasant'"]
-VERBS = ["'sees'", "'asks'", "'approaches'",
-         "'hates'", "'avoids'", "'loathes'", "'misleads'", "'attacks'",
-         "'loves'", "'helps'", "'wants'", "'respects'", "'likes'"]
+NOUNS = ["'programmer'", "'linguist'", "'person'"]
+ADJECTIVES = ["'red'", "'angry'",  "'happy'"]
+VERBS = ["'asks'", "'hates'", "'misleads'", "'loves'", "'helps'"]
 
 production_rules = ["S -> NP VP", "NP -> A N", "NP -> N", "VP -> V NP",
                     f"N -> {reduce(lambda x, y: f'{x} | {y}', NOUNS)}",
@@ -39,6 +35,9 @@ for sentence in formatted_sentences:
         positive.append(sentence + '\n')
     if sentiment == '2' and len(negative) < 65:
         negative.append(sentence + '\n')
+    if len(positive) == 65 and len(negative) == 65:
+        break
+
 with open("negative_corpus.txt", 'w') as negative_corpus:
     negative_corpus.writelines(negative)
 with open("positive_corpus.txt", 'w') as positive_corpus:
