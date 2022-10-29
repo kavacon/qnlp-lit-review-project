@@ -45,4 +45,18 @@ Muhammad~Hamza Waseem, Jonathon Liu, Vincent Wang-Maścianica, and Bob Coecke.
   ̃eptcs/paper.cgi?E2ECOMPVEC.7}{cgi.cse.unsw.edu.au/
   ̃eptcs/paper.cgi?E2ECOMPVEC.7}.
 
+\bibitem{python-lib}
+Dimitri Kartsaklis, Ian Fan, Richie Yeung, Anna Pearson, Robin Lorenz, Alexis
+  Toumi, Giovanni de~Felice, Konstantinos Meichanetzidis, Stephen Clark, and
+  Bob Coecke.
+\newblock ``lambeq: {A}n {E}fficient {H}igh-{L}evel {P}ython {L}ibrary for
+  {Q}uantum {NLP}''~(2021).
+\newblock  url:~\href{https://github.com/CQCL/lambeq}{github.com/CQCL/lambeq}.
+
+\bibitem{novel-exp-repo}
+Constantinos Kavadias.
+\newblock ``Novel experiment corpora generator and experiment notebook.''.
+\newblock
+  url:~\href{https://github.com/kavacon/qnlp-lit-review-project}{github.com/kavacon/qnlp-lit-review-project}.
+
 \end{thebibliography}

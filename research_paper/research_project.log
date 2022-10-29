@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.16)  23 OCT 2022 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.16)  29 OCT 2022 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1022,140 +1022,123 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \hbox (badness 2529) in paragraph at lines 92--99
-\T1/cmr/m/n/10.95 In prac-tice Dis-Co-Cat de-scribes gram-mat-i-cal
- []
-
-<./images//alicelovesbob.jpg, id=95, 525.965pt x 222.8325pt>
+<./images//alicelovesbob.jpg, id=99, 525.965pt x 222.8325pt>
 File: ./images//alicelovesbob.jpg Graphic file (type jpg)
 <use ./images//alicelovesbob.jpg>
 Package pdftex.def Info: ./images//alicelovesbob.jpg  used on input line 102.
 (pdftex.def)             Requested size: 120.92421pt x 51.23pt.
-<./images//quantum-circuit.png, id=101, 308.15125pt x 199.74625pt>
+<./images//quantum-circuit.png, id=104, 308.15125pt x 199.74625pt>
 File: ./images//quantum-circuit.png Graphic file (type png)
 <use ./images//quantum-circuit.png>
-Package pdftex.def Info: ./images//quantum-circuit.png  used on input line 117.
+Package pdftex.def Info: ./images//quantum-circuit.png  used on input line 116.
 
-(pdftex.def)             Requested size: 120.92421pt x 78.38228pt.
+(pdftex.def)             Requested size: 241.84843pt x 156.77066pt.
 
-Underfull \hbox (badness 1852) in paragraph at lines 131--137
-\T1/cmr/m/n/10.95 u-ral lan-guage and dis-cern mean-ing.
+Overfull \hbox (10.0pt too wide) in paragraph at lines 116--117
+ [][] 
  []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 92--129
+\T1/cmr/m/n/10.95 In prac-tice Dis-Co-Cat de-scribes gram-mat-i-cal
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 </Users/constantinoskavadias/Google Drive/University/Masters/COMP90084 - Qua
 ntum Software/ResearchProject/research_paper/./images//alicelovesbob.jpg> </Use
 rs/constantinoskavadias/Google Drive/University/Masters/COMP90084 - Quantum Sof
-tware/ResearchProject/research_paper/./images//quantum-circuit.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-[]\T1/cmr/m/n/10.95 Perform a di-a-gram
+tware/ResearchProject/research_paper/./images//quantum-circuit.png>] [3]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+11.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 4108) in paragraph at lines 228--229
+\T1/cmr/m/n/10.95 been based on an ex-ist-ing QNLP python
+ []
+
+<./images//experiment-training.png, id=156, 617.9085pt x 395.3169pt>
+File: ./images//experiment-training.png Graphic file (type png)
+<use ./images//experiment-training.png>
+Package pdftex.def Info: ./images//experiment-training.png  used on input line 
+249.
+(pdftex.def)             Requested size: 241.84843pt x 154.72188pt.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 249--250
+ [][] 
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 144--162
-\T1/cmr/m/n/10.95 as vari-a-tional quan-tum cir-cuits, op-
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 188--196
-\T1/cmr/m/n/10.95 Both ex-per-i-ments had promis-ing F-
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 188--196
-\T1/cmr/m/n/10.95 for the topic clas-si-fi-ca-tion and 0.75
- []
-
-[3]
 (/Users/constantinoskavadias/Google Drive/University/Masters/COMP90084 - Quantu
-m Software/ResearchProject/research_paper/research_project.bbl
-Underfull \hbox (badness 3735) in paragraph at lines 4--9
-\T1/cmr/m/n/10.95 i-cal foun-da-tions for a com-po-si-
+m Software/ResearchProject/research_paper/research_project.bbl [4 </Users/const
+antinoskavadias/Google Drive/University/Masters/COMP90084 - Quantum Software/Re
+searchProject/research_paper/./images//experiment-training.png>]
+Underfull \hbox (badness 2126) in paragraph at lines 4--9
+[]\T1/cmr/m/n/10.95 Bob Co-ecke, Mehrnoosh Sadrzadeh, and
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 11--17
-[]\T1/cmr/m/n/10.95 Konstantinos Me-ichanet-zidis, Ste-
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 11--17
-\T1/cmr/m/n/10.95 Nicolò Chi-ap-pori, Alexis Toumi,
+Underfull \hbox (badness 1817) in paragraph at lines 4--9
+\T1/cmr/m/n/10.95 mean-ing''.  CoRR\T1/lmr/bx/n/10.95 abs/1003.4394 \T1/cmr/m/n
+/10.95 (2010).
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--17
-\T1/cmr/m/n/10.95 lan-guage pro-cess-ing on near-
+[]\T1/cmr/m/n/10.95 Konstantinos Me-ichanet-zidis, Ste-fano
  []
 
 
-Overfull \hbox (5.92818pt too wide) in paragraph at lines 11--17
-\T1/cmr/m/n/10.95 url: [][]http://arxiv.org/abs/2005.04147[][]. 
+Underfull \hbox (badness 2080) in paragraph at lines 11--17
+\T1/cmr/m/n/10.95 ap-pori, Alexis Toumi, and Bob Co-ecke.
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 19--23
-[]\T1/cmr/m/n/10.95 IBM Cloud Ed-u-ca-tion.  ``Nat-u-
+Underfull \hbox (badness 10000) in paragraph at lines 11--17
+\T1/cmr/m/n/10.95 near-term quan-tum com-put-ers'' (2020).
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--23
-\T1/cmr/m/n/10.95 ral lan-guage pro-cess-ing (nlp)''.
+[]\T1/cmr/m/n/10.95 IBM Cloud Ed-u-ca-tion.  ``Nat-
  []
 
 
-Overfull \hbox (18.25917pt too wide) in paragraph at lines 19--23
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+\T1/cmr/m/n/10.95 u-ral lan-guage pro-cess-ing (nlp)''.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
 \T1/cmr/m/n/10.95 url: [][]www.ibm.com/cloud/learn/natural-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--31
-[]\T1/cmr/m/n/10.95 Robin Lorenz, Anna Pear-son,
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 25--31
-\T1/cmr/m/n/10.95 itri Kart-sak-lis, and Bob Co-ecke.
+Underfull \hbox (badness 1496) in paragraph at lines 25--31
+[]\T1/cmr/m/n/10.95 Robin Lorenz, Anna Pear-son, Kon-stanti-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--31
-\T1/cmr/m/n/10.95 po-si-tional mod-els of mean-ing
+\T1/cmr/m/n/10.95 nos Me-ichanet-zidis, Dim-itri Kart-sak-lis,
  []
 
 
-Overfull \hbox (5.92818pt too wide) in paragraph at lines 25--31
-\T1/cmr/m/n/10.95 url: [][]http://arxiv.org/abs/2102.12846[][]. 
- []
-
-[4]
-Underfull \hbox (badness 7907) in paragraph at lines 33--39
-[]\T1/cmr/m/n/10.95 Bob Co-ecke, Gio-vanni de Fe-
+Underfull \hbox (badness 4686) in paragraph at lines 25--31
+\T1/cmr/m/n/10.95 and Bob Co-ecke.  ``Qnlp in prac-tice:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
-\T1/cmr/m/n/10.95 lice, Kon-stanti-nos Me-ichanet-
+Underfull \hbox (badness 3250) in paragraph at lines 25--31
+\T1/cmr/m/n/10.95 Run-ning com-po-si-tional mod-els of mean-
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 33--39
-\T1/cmr/m/n/10.95 zidis, and Alexis Toumi.  ``How
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 33--39
-\T1/cmr/m/n/10.95 to make qubits speak''.  Pages
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
-\T1/cmr/m/n/10.95 277--297.  Springer.  (2022).
- []
-
-
-Overfull \hbox (5.92818pt too wide) in paragraph at lines 33--39
-\T1/cmr/m/n/10.95 url: [][]http://arxiv.org/abs/2107.06776[][]. 
+Underfull \hbox (badness 10000) in paragraph at lines 25--31
+\T1/cmr/m/n/10.95 ing on a quan-tum com-puter'' (2021).
  []
 
 /Users/constantinoskavadias/Google Drive/University/Masters/COMP90084 - Quantum
@@ -1279,68 +1262,83 @@ You may provide a definition with
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--47
-[]\T1/cmr/m/n/10.95 Muhammad Hamza Waseem,
+[]\T1/cmr/m/n/10.95 Muhammad Hamza Waseem, Jonathon
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--47
-\T1/cmr/m/n/10.95 Jonathon Liu, Vin-cent Wang-
+\T1/cmr/m/n/10.95 Liu, Vin-cent Wang-Ma±cianica, and
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--47
-\T1/cmr/m/n/10.95 Ma±cianica, and Bob Co-
+\T1/cmr/m/n/10.95 Bob Co-ecke.  ``Language-independence
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--47
-\T1/cmr/m/n/10.95 ecke.  ``Language-independence
+Underfull \hbox (badness 1902) in paragraph at lines 41--47
+\T1/cmr/m/n/10.95 of dis-co-circ's text cir-cuits: En-glish and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--47
-\T1/cmr/m/n/10.95 of dis-co-circ's text cir-cuits:
+Underfull \hbox (badness 3219) in paragraph at lines 41--47
+\T1/cmr/m/n/10.95 urdu'' (2022).  url: [][]cgi.cse.unsw.edu.au/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--47
-\T1/cmr/m/n/10.95 En-glish and urdu'' (2022).
+Underfull \hbox (badness 2503) in paragraph at lines 49--55
+[]\T1/cmr/m/n/10.95 Dimitri Kart-sak-lis, Ian Fan, Richie Ye-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--47
-\T1/cmr/m/n/10.95 url: [][]cgi.cse.unsw.edu.au/ eptc-
+Underfull \hbox (badness 1297) in paragraph at lines 49--55
+\T1/cmr/m/n/10.95 ecke.  ``lam-beq: An Ef-fi-cient High-Level
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 57--61
+\T1/cmr/m/n/10.95 cor-pora gen-er-a-tor and ex-per-i-ment note-
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 57--61
+\T1/cmr/m/n/10.95 book.''.  url: [][]github.com/kavacon/qnlp-lit-
  []
 
 ) [5]
 (/Users/constantinoskavadias/Google Drive/University/Masters/COMP90084 - Quantu
 m Software/ResearchProject/research_paper/research_project.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `research_project.out' has not changed.
-(rerunfilecheck)             Checksum: 1F12A8501BDC644065A3EB2D6C12B0C0;1453.
+(rerunfilecheck)             Checksum: A8BDCD833E20DD68ABAB698FE9F2247B;1545.
  ) 
 Here is how much of TeX's memory you used:
- 27081 strings out of 478268
- 494928 string characters out of 5846346
- 805542 words of memory out of 5000000
- 44799 multiletter control sequences out of 15000+600000
- 517361 words of font info for 59 fonts, out of 8000000 for 9000
+ 27146 strings out of 478268
+ 496512 string characters out of 5846346
+ 805830 words of memory out of 5000000
+ 44854 multiletter control sequences out of 15000+600000
+ 518510 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,11n,118p,1065b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/t
-exlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2022/
-texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist
-/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
-e1/public/lm/lmss17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
-lm/lmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sf
-rm1095.pfb>
+ 89i,11n,118p,1065b,507s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
+/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2022/
+texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/te
+xmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2022/texmf-dist/fo
+nts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/p
+ublic/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/l
+mss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrb1095.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
 Output written on "/Users/constantinoskavadias/Google Drive/University/Masters/
 COMP90084 - Quantum Software/ResearchProject/research_paper/research_project.pd
-f" (5 pages, 203271 bytes).
+f" (5 pages, 319785 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

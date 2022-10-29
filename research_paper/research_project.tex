@@ -96,7 +96,7 @@
     Types start to look like qubits (described by a vector), interactions between one type and another are then naturally
     described by operators acting between wires.
     Figure~\ref{fig:discocat-diagram} provides an example of a DisCoCat diagram which illustrates this wire like property
-    of types, note how the word \quote{hate} is made up of 3 wires representing three simple types.
+    of types, note how the word \textbf{hate} is made up of 3 wires representing three simple types.
     \begin{figure}[h]
         \centering
         \includegraphics[width=0.25\textwidth]{alicelovesbob}
@@ -111,10 +111,9 @@
     Both of these assertions essentially imply that DisCoCat can be easily mapped into quantum circuitry, in fact the
     literature even provides an in depth formulation for this conversion\cite{qnlp_near_term} the result of which is shown in
     Figure~\ref{fig:quantum-circuit}.
-    Figure~\ref{fig:quantum-circuit}.
-        \begin{figure}[h]
+    \begin{figure}[h]
         \centering
-        \includegraphics[width=0.25\textwidth]{quantum-circuit}
+        \includegraphics[width=0.5\textwidth]{quantum-circuit}
         \caption{An example quantum circuit for the sentence "Alice hates Bob"\cite{qubits_speak}.}
         \label{fig:quantum-circuit}
     \end{figure}
@@ -160,27 +159,23 @@
     Using ansatz and variational quantum circuitry to encode complex information allows the practical
     application of theoretical work that would otherwise be blocked by quantum device limitations.
     \section{Classification Experiment}\label{sec:classification_exp}
-    In this section we will look at a classification experiment using the QNLP circuit building
-    described previously.
-    The experiment includes two corpora and shows the practical application of binary classification using this method.
+    In this section we will look at a classification experiment using the described QNLP circuit building.
+    The experiment includes two corpora and shows an pplication of binary classification using this method.
     \subsection{The experiment}\label{subsec:binary-classification}
-    Binary classification is a simple yet fundamental task in NLP involving classifying sentences
-    as belonging to one of two categories.
-    These could be true or false, question or statement etc.
+    Binary classification is a NLP task involving classifying sentences as belonging to one of two categories.
     In this experiment two different corpora were used, the first is topic based containing sentences
     about IT or food\cite{qnlp_in_prac}, the second is grammatical with sentences containing an object or
     subject based relative clause.
-    Both experiments used the DisCoCat method for circuit construction and learning
-    lexeme specific parameterisations for the circuits.
+    Both experiments used the DisCoCat method for circuit construction and learning word  parameterisations for the circuits.
     The use of DisCoCat in these scenarios was interesting as it showed how the model can be manipulated to change
     what is considered grammatical to suit different goals and corpora\cite{qnlp_in_prac}.
     \newline
-    Initial variational training phases were performed using classical simulations of quantum devices.
-    This allowed the testing of different ansatz to find the configuration with the lowest cost function
-    convergence value during training without needing an available NISQ device\cite{qnlp_in_prac}.
-    This provides confidence in the efficacy of the chosen ansatz.
+    Variational training phases were performed using classical simulations of quantum devices.
+    This allowed the testing of different ansatz to find the configuration with the lowest training cost function
+    convergence value without needing an available NISQ device\cite{qnlp_in_prac}.
+    This provides confidence in the suitability of the chosen ansatz.
     During the physical device training phase the winning ansatz from the classical simulations was chosen and the circuits
-    loaded from it.
+    constructed with it.
     The authors for reasons of cost and accuracy chose to load the circuits of all sentences in the training corpus as
     a single circuit, the advantages of this approach meant a single optimisation run for all parameters, reducing total
     number of circuit runs on physical devices.
@@ -188,15 +183,15 @@
     Both experiments had promising F-scores when run on test data of 0.85 for the topic classification and 0.75 for
     the syntax classification\cite{qnlp_in_prac}.
     These scores were compared against random guessing and were found to be statistically significant\cite{qnlp_in_prac}.
-    While the results of these experiments are promising, showing non-trivial success for the classification task.
-    They were unable to be faithfully compared to a classical counterpart or even a classical simulation of the same
+    The results of these experiments are promising, showing non-trivial success for the classification task.
+    They were unable to be accurately compared to a classical counterpart or even a classical simulation of the same
     quantum task due to hardware limitations on number of runs.
     This is disappointing since the error rates of both experiments appeared to be lower on physical hardware compared
     to the simulations but the results are inconclusive\cite{qnlp_in_prac}.
     \subsection{Discussion}\label{subsec:discussion}
     The use of two different classification tasks shows that the efficacy of QNLP classification is not limited to a
     particular domain or grammar and removes potential inclinations towards dataset bias.
-    We should also acknowledge that the topic classification task used an artificial corpus constructed for the experiment,
+    The topic classification task used an artificial corpus constructed for the experiment,
     however the syntax classification task used a filtered set from an existing corpus RELPRON\cite{qnlp_in_prac}.
     This provides confidence that the authors have not used a purpose built corpus to manipulate their results.
     The constructed corpus for the topic classification contained lexemes shared between both domains making the
@@ -204,38 +199,64 @@
     \newline
     If possible it would have been interesting to see a comparison to an equivalent classical task on the same corpus
     rather than a comparison with a classical simulation of the quantum task.
-    Given that the author's intention was to simply prove that the QNLP method was practical and useful however it is
-    not surprising this comparison was not provided.
-    Quantum superiority was not a focus in these particular experiments.
+    Given that the author's intention was to simply prove that the QNLP method was practical and useful however its
+    absence is not surprising.
     \section{Novel Experiment}\label{sec:novel_exp}
-    The novel experiment uses a simple corpus described by the following context free grammar
-    % insert CFG rule and classification rule
-    the corpus can be found at the following link
-    % insert link
+    The novel experiment uses a simple corpus described by the context free grammar in Table~\ref{tab:cfg}
+    for sentiment analysis.
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{|| c ||}
+            \hline
+            noun phrase → noun \\
+            noun phrase → adjective noun \\
+            verb phrase → verb noun phrase \\
+            sentence → noun phrase verb phrase \\
+            \hline
+        \end{tabular}
+        \caption{Simple context free grammar for test corpus of novel experiment as seen in\cite{qnlp_in_prac}}
+        \label{tab:cfg}
+    \end{table}
     The main aim of this experiment is to determine whether the results in the previously discussed classification
     experiments are reproducible, for that reason the experiment will have the following features:
     \begin{itemize}
         \item The same ansatz as the topic experiment in Section~\ref{sec:classification_exp}
         \item The same diagram simplification as the topic experiment in Section~\ref{sec:classification_exp}
-        \item The same corpus size (65 sentences) as the topic experiment in Section~\ref{sec:classification_exp}
+        \item The same corpus size (65 sentences per sentiment) as the topic experiment in Section~\ref{sec:classification_exp}
         \item The same optimisation function as the topic experiment in Section~\ref{sec:classification_exp}
     \end{itemize}
-    We will also run evaluations on concatenations of some sentences to explore efficacy of the model in these scenarios.
     The python code running the experiment has been based on an existing QNLP python library\cite{python-lib}
     \subsection{Results}\label{subsec:novel-results}
-    These results are based on optimisation runs performed using the IBM AER simulator (to account for timeframe)
-    and evaluation runs on physical NISQ devices through the IBM cloud computing system.
-    % graph on convergence time vs time of runs
-    % graph of error rate on evaluation of training data
-    % graph of error rate on evaluation of test data
-    % short summary of results
+    Training runs for the experiment were performed using the IBM AER simulator.
+    This was due to time constraints, allowing training to be completed without waiting for physical machines to become
+    available.
+    \newline
+    We can see from Figure~\ref{fig:experiment-training} that convergence in training happened around the 100--200 iteration
+    mark and that accuracy in both the training and development sets stayed around 0.5 for all iterations with variation
+    between 0.54 and 0.46 approximately.
+    The convergence and accuracy results of the novel experiment closely match the original topic classification
+    experiment\cite{qnlp_in_prac}.
+    This provides reassurance that the results in that experiment can be trusted and are reproducible for different
+    corpora.
+    \newline
+    An evaluation run was performed on the IBM physical quantum device \textbf{ibm-oslo} with a resulting accuracy
+    on the test corpus of 0.5, this was better than the same evaluation performed on the simulator which scored 0.483.
+    While this comparison provides little value in assessing the original experiment it was interesting to note the
+    significant accuracy difference.
+    The full Jupyter notebook and corpora used for the experiment is available in a public github repository\cite{novel-exp-repo}.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{experiment-training}
+        \caption{Training and development set loss and accuracy by iteration\cite{novel-exp-repo}.}
+        \label{fig:experiment-training}
+    \end{figure}
     \section{Conclusion}\label{sec:conclusion}
     We have seen a discussion about the current state of QNLP and experiments that provide practical insights into that
     state.
     This includes a method for mapping natural language into deterministic quantum circuits and encoding word meaning
     into circuit parameters using variational training methods.
-    A discussion of two binary classification experiments was provided ultimately concluding that experiments show the
-    practical application of the new QNLP techniques was promising and extensible but further analysis was limited
+    A discussion of two binary classification experiments was provided ultimately concluding that they show the
+    practical application of the new QNLP techniques is promising and extensible but further analysis was limited
     by hardware limitations and accessibility.
     A novel experiment was presented that replicated the binary classification results, using a unique corpus and the same
     ansatz and circuit mapping presented in the original experiment.
